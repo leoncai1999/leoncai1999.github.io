@@ -406,6 +406,7 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
+
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -781,6 +782,13 @@ call-to-action .button {
     background: #fff;
     background: rgba(255, 255, 255, .9);
     cursor: default;
+}
+
+#blog {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
 }
 
 /* ------------------------------------------------------------------ */
