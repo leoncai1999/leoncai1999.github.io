@@ -1,636 +1,524 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
+
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-   <title>Leon Cai</title>
-   <meta name="description" content="">
-   <meta name="author" content="">
+  <title>Leon Cai - Personal Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-   <!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-   <link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-   <!-- Script
-   ================================================== -->
-   <script src="js/modernizr.js"></script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-   <!-- Favicons
-   ================================================== -->
-   <link rel="shortcut icon" href="favicon.png" >
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Template Name: MyResume - v2.2.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-      <nav id="nav-wrap">
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+    <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#Blog"><i class='bx bx-pencil'></i> <span>Blog</span></a></li>
+        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
-            <li><a class="smoothscroll" href="#blog">Blog</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
+  </header><!-- End Header -->
 
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">I'm Leon Cai.</h1>
-            <h3>I am a student at the University of Texas at Austin passionate about Web and Mobile App Development. <a class="smoothscroll" href="#about">Scroll down</a> to learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
-            <hr />
-            <ul class="social">
-               <li><a href="https://www.facebook.com/leoncai1999"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/leoncai1999/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/leoncai1999"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://github.com/leoncai1999"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.strava.com/athletes/32573537"><i class="fa fa-globe"></i></a></li>
-            </ul>
-         </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Leon Cai</h1>
+      <p>I'm a <span class="typed" data-typed-items="Software Developer, Computer Science Student, Distance Runner"></span></p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/leoncai1999" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/leoncai1999" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/leoncai1999/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/leoncai1999" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.strava.com/athletes/32573537" target="_blank"><i class='bx bx-run'></i></a>
       </div>
+    </div>
+  </section><!-- End Hero -->
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
+  <main id="main">
 
-   </header> <!-- Header End -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
 
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <p>
+              Hi, I am Leon Cai and I am currently a Senior Computer Science Student at the University of Texas at Austin.
+              I have experience developing Web and Mobile Applications through industry work, contract jobs, school courses and personal projects,
+              and have previously interned at Nike, Rakuten, and DASH (by EatFreqs, Inc.). 
+              <br/>
+              <br/>
+              Additionally, I am particularly passionate about the intersection of technology and fitness.
+              I am an avid distance runner having previosuly raced the Houston and NYC Marathons, and I am currently training towards qualifying for the Boston Marathon. 
+              Following my graduation in May 2021, I will be joining Nike as a Full-Time Software Engineer in the Portland, Oregon Area.
+            </p>
+          </div>
+        </div>
 
-      <div class="row">
+      </div>
+    </section><!-- End About Section -->
 
-         <div class="three columns">
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
 
-            <img class="profile-pic"  src="images/profilepic2.jpg" alt="" />
+        <div class="section-title">
+          <h2>Languages and Tools</h2>
+        </div>
 
-         </div>
+        <div class="row">
 
-         <div class="nine columns main-col">
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/python.png"/>
+          </div>
 
-            <h2>About Me</h2>
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/html.png"/>
+          </div>
 
-            <p>I am a Senior Computer Science Student at the University of Texas at Austin graduating in May 2021
-               and seeking full-time job opportunities. This summer, I interned remotely at Nike and additionally
-               have previously interned at Rakuten Ebates and a local Austin startup. I also love to run and am 
-               heavily involved in our university's running club. So far, I have ran the Houston and NYC marathons
-               and hope to race many more marathons in the future!
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/css.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/js.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/java.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/swift.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/objective-c.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/kotlin.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/c.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/sql.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/git.png"/>
+          </div>         
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Software and Services</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/react.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/vscode.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/xcode.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/androidStudio.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/github.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/heroku.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/firebase.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/jenkins.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/atlassian.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/terminal.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/gitlab.png"/>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <img class="skill-logo" src="./assets/img/logos/postman.png"/>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Leon Cai</h4>
+              <p><em>Software Engineer with experience developing applications in startups, mid-size, and big companies in a variety of different industries.</em></p>
+              <ul>
+                <li>Austin, TX</li>
+                <li>leoncai197@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science, Computer Science</h4>
+              <h5>2017 - 2021</h5>
+              <p><em>The University of Texas at Austin, Austin, TX</em></p>
+              <p>Relevant Coursework: Software Engineering, Mobile App Development, Data Mining, Neural Networks, Algorithms, Data Structures</p>
+              <p>Extracurriculars: Texas Running Club, Code Orange, Freshman Research Initiative, Texas Convergent</p>
+            </div>
+            <div class="resume-item">
+              <h4>Minor, Business Foundations</h4>
+              <h5>2019 - 2020</h5>
+              <p><em>The University of Texas at Austin, Austin, TX</em></p>
+            </div>
+
+            <h3 class="resume-title">Contract Work</h3>
+            <div class="resume-item">
+              <h4>Front End Web Developer</h4>
+              <h5>2020</h5>
+              <p><em>UT Department of Theatre and Dance</em></p>
+              <ul>
+                <li>Developed a React web app to present the interactive theatrical performance of “In The Ether” to hundreds of viewers</li>
+                <li>Built a YouTube themed UI to navigate between live Twitch streams and parallax scroll archive of past performances</li>
+                <li>Integrated a dancer chatbox, ticket validation, and show phase control panel in coordination with the backend</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Global Technology Intern</h4>
+              <h5>2020</h5>
+              <p><em>Nike, Portland, OR Area</em></p>
+              <ul>
+                <li>Took part in creating an automated testing framework for the Nike SNKRS app that generates over a billion in revenue</li>
+                <li>Lead the Japan localization automation testing effort and introduced cross journey app automation for SNKRS</li>
+                <li>Worked alongside developers to debug test failures from nightly Jenkins builds and add accessibility elements</li>
+                <li>Built a demo app utilizing UI tests with mocked network calls and explored adding mocks into existing Nike app tests</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>iOS Engineering Intern</h4>
+              <h5>2019</h5>
+              <p><em>Rakuten, San Francisco, CA</em></p>
+              <ul>
+                <li>Delivered Swift and Obj-C production code as a developer on the Rakuten iOS app with hundreds of thousands of users</li>
+                <li>Implemented the Rakuten rebrand of the app for Canadian users and the transition of Ebates to Rakuten accounts</li>
+                <li>Enacted a new process for enabling background location access to notify users about discounts at nearby stores</li>
+                <li>Researched and initiated progress on iOS 13 specific additions to the app including Sign in with Apple and dark mode</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Mobile Engineering Intern</h4>
+              <h5>2018</h5>
+              <p><em>DASH (by EatFreqs, Inc.), Austin, TX</em></p>
+              <ul>
+                <li>Developed an Android and iOS app from scratch, alongside two other developers, to order ahead at Austin restaurants</li>
+                <li>Displayed a list and map view of restaurants filterable by various attributes and attached their corresponding menus</li>
+                <li>Facilitated the creation of the login and signup process and the group ordering functionality</li>
+                <li>Contributed over 5,000 lines of Java and Swift code, published both apps, and regularly rolled out updates</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-mobile">Mobile</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Workout Heatmap</h4>
+                <p>Web App</p>
+                <div class="portfolio-links">
+                  <a href="workout-heatmap-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>In The Ether</h4>
+                <p>Web App</p>
+                <div class="portfolio-links">
+                  <a href="ether-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Dine With Dash</h4>
+                <p>Android and iOS App</p>
+                <div class="portfolio-links">
+                  <a href="dash-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ApartmentGate</h4>
+                <p>Android App</p>
+                <div class="portfolio-links">
+                  <a href="apartment-gate-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>College Fit For Me</h4>
+                <p>Web App</p>
+                <div class="portfolio-links">
+                  <a href="college-fit-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Texas Running Club App</h4>
+                <p>iOS App</p>
+                <div class="portfolio-links">
+                  <a href="texas-running-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="Blog" class="Blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Blog</h2>
+        </div>
+
+        <div id="medium-widget"></div>
+            <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+            <script>MediumWidget.Init({renderTo: '#medium-widget', params:
+        {"resource":"https://medium.com/@leoncai1999","postsPerLine":2,"limit":10,"picture":"big","fields":
+        ["description","author","publishAt"],"ratio":"landscape"}})</script>
+
+      </div>
+    </section><!-- End Blog Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Austin, Texas Metropolitan Area</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>leoncai197@gmail.com</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <p>Want to get in contact with me? Feel free to reach out to me if you would like to contribute to one 
+              of my portfolio projects, have questions about navigating university or the tech industry, want to talk 
+              about running, or if there is any other way I can help you out. I would be more than happy to hear from
+              you and I look forward to it! The best way to reach me is via email and I will get back to you as 
+              quickly as possible!
             </p>
 
-               <div class="columns download">
-                  <p>
-                     <a href="https://www.dropbox.com/home?preview=Resume+-+Leon+Cai.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
+          </div>
 
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
+        </div>
 
       </div>
-
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>The University of Texas at Austin</h3>
-                  <p class="info">B.S. Computer Science<span>&bull;</span> <em class="date">August 2017 - May 2021 (Expected)</em></p>
-
-                  <p>
-                  At my time at UT Austin so far, I have developed a strong foundation of CS fundamentals in my Data Structures,
-                  Algorithms, Operating Systems and Mathematics coursework. I have also taken Android Development to
-                  further my background in Mobile App Development and developed my own Android App from scratch. This past
-                  semester I took Data Mining where I gained experience working with Jupyter Notebooks and Sklearn, and
-                  Software Engineering where my group and I built a full-stack website from scratch.
-                  </p>
-
-                  <p>
-                  For CS extracurriculars, I had been involved in Texas Convergent, an interdisciplinary entrepreneurial
-                  organization where I worked with CS and Business peers towards a project to effectively monetize Twitter. I had also
-                  been involved in the Freshman Research Initiaitve where I wrote python programs to test different combinations
-                  of materials as promising sources of alternative energy. This past semester, I was involved with Code Orange
-                  and visited East Austin elementary schools weekely to teach students Computer Science fundamentals and scratch
-                  programming.
-                  </p>
-
-                  <p>
-                  Outside of Computer Science, I am pursuing a Business Minor. I am also heavily involved in Texas Running Club,
-                  and regularly train with peers towards various 5K, 10K, Half-Marathon and Marathon races. I have tabled during
-                  summer orientations to promote our organization/register new members, volunteered at Austin area races, and
-                  served as a pacer for the campus wide Longhorn Run 5K/10K and preceding training runs.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Nike</h3>
-                  <p class="info">Quality Engineering Intern <span>&bull;</span> <class="location">Portland, OR Area <span>&bull;</span> <em class="date">June 2020 - August 2020</em></p>
-                  Alongside the Mobile App Quality Automation team at Nike, I assisted in creating and maintaing an
-                  automated UI testing infrastructure for the Nike SNKRS iOS App. I was responsible for leading the
-                  Japan localization effort of our existing automated tests and introduced cross journey app automation.
-                  Additionally, I built out a Demo Android App in Kotlin with Espresso UI tests that utilized mocked
-                  responses and used this proof-of-concept to explore integrating mocks into existing Nike App Android
-                  UI Tests.
-                  <p>
-
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Rakuten Ebates</h3>
-                  <p class="info">iOS Mobile Engineering Intern <span>&bull;</span> <class="location">San Francisco, CA <span>&bull;</span> <em class="date">June 2019 - August 2019</em></p>
-                  As an iOS developer on the Rakuten Ebates Engineering team, I took part in the biggest re-architecture of the
-                  app in company history. Once showing the same featured stores to all users, the team has completed and is
-                  gradually rolling out a new online shopping experience which features an infinite scrolling feed of stores and
-                  deals tailored to the individual interests. In addition, I enacted a new location permissions flow for iOS 13
-                  users of the app, enacted the Rakuten rebrand for Canada users, and migrated the codebase of our app to Xcode 11.
-                  <p>
-
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>DASH Order Ahead</h3>
-                  <p class="info">Mobile Development Intern <span>&bull;</span> <class="location">Austin, TX <span>&bull;</span> <em class="date">May 2018 - August 2018</em></p>
-
-                  <p>
-                  The summer after my freshman year, I had the unique opportinuty to build an iOS and Android app for a local
-                  startup from scratch, working directly alongside the CTO, Lead UI/UX Designer, and two other developer
-                  interns. Together, we built an application that allows users to browse resturants to order ahead at, view
-                  their menus and select items to oder, and pay within our app. I contributed roughly 5000 lines of code to
-                  our Android app and rouhgly 3500 lines of code to our iOS app.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p>Throughout my coursework and work experience, I have worked with and gained familiarity with a
-               varitey of different programming langauges and industry softwares. I also love learning more
-               about the industry and work to pick up new languges/tools as quickly as possible.
-
-               <h5>Languages:</h5> Proficient in Java, Swift, C, Python, Kotlin, XML and Git; Familiar with 
-               Objective-C, JavaScript and HTML/CSS.
-               <h5>Software:</h5> Xcode, Android Studio, React, Terminal, Postman, Sourcetree, Charles Proxy, VS Code
-               <h5>Services:</h5> GitHub, GitLab, Bitbucket, Braze, Amplitude, Loggly, Segment, JIRA, Confluence, Fabric, Jenkins, Fastlane
-            </p>
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>My Projects</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/texasrunning.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>Texas Running Club App</h5>
-                              <p>iOS Application (Swift)</p>
-                           </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-               </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/dash.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>DASH Order Ahead App</h5>
-                              <p>iOS and Android Application</p>
-                           </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-               </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/workoutheatmaplogo.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>Workout Heatmap Web App</h5>
-                              <p>React Application (HTML/CSS, JavaScript)</p>
-                           </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-               </div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/apartmentgatelogo.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-                              <h5>ApartmentGate App</h5>
-                              <p>Android Application (Kotlin)</p>
-                           </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-               </div> <!-- item end -->
-
-
-            <div class="columns portfolio-item">
-               <div class="item-wrap">
-
-                  <a href="#modal-05" title="">
-                     <img alt="" src="images/portfolio/collegefitformelogo.png">
-                     <div class="overlay">
-                        <div class="portfolio-item-meta">
-                           <h5>CollegeFitForMe App</h5>
-                           <p>React Application (HTML/CSS and Javascript)</p>
-                        </div>
-                     </div>
-                     <div class="link-icon"><i class="icon-plus"></i></div>
-                  </a>
-
-               </div>
-            </div> <!-- item end -->
-
-         </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-         --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/runningApp.jpeg" alt="" />
-
-            <div class="description-box">
-               <h4>Texas Running Club App</h4>
-               <p>Using XCode and Swift, I built an iOS application for our intramural running club. The app
-                  is inspired by the website but also incorporates additional features. Main features:
-                  <br>
-                  <br>
-                  • A poll to vote on the route we run everyday. The poll is connected to a Firebase Database
-                    which is used to track member votes and select a route.
-                  <br>
-                  • A map which displays all of the routes we run as polyline objects.
-                  <br>
-                  • A feed showing when members ran and how long/fast they ran. The feed is populated by
-                    Strava's API for club activites.
-                  <br>
-                  • A news feed of tweets from running related Twiiter accounts powered by Twitter API.
-                  <br>
-                  <br>
-                  The app also includes resources for joining the email list and accessing the club's social
-                  media accounts.
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>iOS Development</span>
-            </div>
-
-            <div class="link-box">
-               <a href="https://github.com/leoncai1999/TRCMobileApp" target="_blank">See Project on GitHub</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-         </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/dashiosshots.jpeg" alt="" />
-
-            <div class="description-box">
-               <h4>DASH Order Ahead iOS and Android App (No Longer Active)</h4>
-               <p>Using XCode/Swift and Android Studio/Java, two colleagues and I built an Android and iOS application
-                  that allows users to browse Austin area restaurants and their menus, and then order ahead
-                  and pay in advance. My contributions:
-                  <br>
-                  <br>
-                  • Implemented the Sign-In and Login process, making calls to our website's database to create new user
-                    accounts, check for valid login credentials, and store user data for other app activities.
-                  <br>
-                  • Utilized the Google Gson library to parse PHP files from our Database to populate a list of available
-                    restaurants and an activity displaying add ons associated with each menu item.
-                  <br>
-                  • Worked directly with our CTO and cofounder to design the User Interface of the app.
-                  <br>
-                  <br>
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>iOS Development</span>
-               <span class="categories"><i class="fa fa-tag"></i>Android Development</span>
-            </div>
-
-            <div class="link-box">
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-         </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/workoutheatmap.png" alt="" />
-
-            <div class="description-box">
-               <h4>Workout Heatmap Web App</h4>
-               <p>Using React, HTML/CSS and Javascript, I built a Web App that connects with a user's 
-                  Strava account to visualize and analyze their workout data. App Features:
-                  <br>
-                  <br>
-                  • The user can view all of their outdoor workout activities in an interactive heatmap. A panel
-                    allows the user to filer activities by sport, workout type, number of members and time of day.
-                    Additionally, the user can recenter the map to the different locations of their workouts.
-                  <br>
-                  • All of the user's activities are also displayed in a table that can be sorted by a variety of
-                    attributes. If desired, this table can be downloaded to Excel.
-                  <br>
-                  • The Stats page provides additional workout analytics not provided by Strava including a breakdown
-                    of average mileage and effort exerted by day, the most common times of day in which workouts are
-                    started, and the amount of activity time spent in each heart rate zone.
-                  <br>
-                  • The app's algorithm scans all of the user's map plotted activities to determine which routes
-                    the user has repeated and how many times those routes have been repeated. Then, the user's most
-                    frequented routes are displayed.
-                  <br>
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>Web Development</span>
-            </div>
-
-            <div class="link-box">
-               <a href="https://www.workoutheatmap.me" target="_blank">See Project</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-         </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/apartmentgatescreenshots.png" alt="" />
-
-            <div class="description-box">
-               <h4>ApartmentGate Android App</h4>
-               <p>Using Android Studio and Kotlin, a friend and I built an Android App from scratch that allows
-                  users to browse apartment listings in San Francisco. App Features:
-                  <br>
-                  <br>
-                  • The user is prompted to create a profile, providing details about their work address, commute method,
-                    budget, and neighborhood preferences. Apartment listings are then graded based on how closely they
-                    fit the user's criteria.
-                  <br>
-                  • The listings, retrieved from Apartments.com, and user profiles are stored in a Cloud Firestore
-                    database. Additionally, information about the popularity of each neighborhood and average rent
-                    is stored.
-                  <br>
-                  • When an individual listing is clicked, additional details about the property are shown, the
-                    user's commute from that apartment is shown on the map, and additional details of the neighborhood
-                    are provided via the WalkScore, SoundScore and Google Maps APIs.
-                  <br>
-                  <br>
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>Android Development</span>
-            </div>
-
-            <div class="link-box">
-               <a href="https://github.com/leoncai1999/ApartmentGate" target="_blank">See Project on GitHub</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-         </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-            <img class="scale-with-grid" src="images/portfolio/modals/collegefitforme.png" alt="" />
-
-            <div class="description-box">
-               <h4>CollegeFitForMe Web App</h4>
-               <p>Using React, HTML/CSS and Javascript, a group of peers and I built a dynamic website that allows
-                  High School students to browse prospective colleges and learn more about them. App Features:
-                  <br>
-                  <br>
-                  • The user can view profiles of 698 universities, 100 cities, and 2000 restaurants from data
-                    retrieved from a custom built API.
-                  <br>
-                  • The profiles can be filtered and sorted on a variety of attributes as well as searched.
-                  <br>
-                  • Each profile has its own instance page detailing more information about the
-                    City/University/Attraction including stats, multi-media, and links to other related instances.
-                  <br>
-                  <br>
-               </p>
-               <span class="categories"><i class="fa fa-tag"></i>Web Development</span>
-            </div>
-
-            <div class="link-box">
-               <a href="https://gitlab.com/parth.shah2/web-project" target="_blank">See Project on GitLab</a>
-               <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-         </div><!-- modal-05 End -->
-
-         <p>In addition to the projects listed above, I have also completed numerous projects in my coursework including
-         an app cloning Reddit, an Android Tetris game, modifying a toy operating system to support file subdirectories
-         and virtual memory mangement, and a program capable of file compression/decompression. </p>
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-   <section id="blog">
-
-         <div class="row">
-
-            <div id="medium-widget"></div>
-               <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-               <script>MediumWidget.Init({renderTo: '#medium-widget', params:
-            {"resource":"https://medium.com/@leoncai1999","postsPerLine":2,"limit":10,"picture":"big","fields":
-            ["description","author","publishAt"],"ratio":"landscape"}})</script>
-
-         </div>
-   </section>
-
-
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">Want to get in contact with me? I am more than happy to answer any additional questions you might have! Please
-                     send me an email at leoncai197@gmail.com and I will get back to you as soon as possible.
-                  </p>
-
-            </div>
-
-         </div>
-
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Leon Cai</h3>
+      <div class="social-links">
+        <a href="https://www.facebook.com/leoncai1999" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/leoncai1999" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/leoncai1999/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/leoncai1999" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.strava.com/athletes/32573537" target="_blank"><i class='bx bx-run'></i></a>
       </div>
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-3cba9e6b-9350-46e0-8f30-345710189111"></div>
-
-   </section> <!-- Contact Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="https://www.facebook.com/leoncai1999"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/leoncai1999/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="https://www.instagram.com/leoncai1999"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="https://github.com/leoncai1999"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.strava.com/athletes/32573537"><i class="fa fa-globe"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
+      <div class="copyright">
+        &copy; Copyright <strong><span>Leon Cai</span></strong>. All Rights Reserved
       </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-   </footer> <!-- Footer End-->
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
 
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
